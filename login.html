@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/validacao.js"></script>
     <title>ChatFun Login Page</title>
 </head>
 <body class="bg-blue-900">
@@ -24,10 +25,10 @@
             <br>
             <div>
                 <label for="password">Senha:</label>
-                <input type="password" name="username" id="username" placeholder="S3NH@" class="border-b border-gray-500 text-center flex justify-center items-center">
+                <input type="password" name="password" id="password" placeholder="S3NH@" class="border-b border-gray-500 text-center flex justify-center items-center">
             </div>
             <br>
-            <input type="button" value="Entrar" class="bg-green-500 rounded-lg p-4 w-100 hover:bg-blue-700 hover:text-black transition cursor-pointer">
+            <input type="button" value="Entrar" class="bg-green-500 rounded-lg p-4 w-100 hover:bg-blue-700 hover:text-black transition cursor-pointer" onclick="validacao()">
         </div>
     </div>
     
