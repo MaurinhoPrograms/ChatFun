@@ -7,7 +7,7 @@ function validacao() {
     
     var contador = 0;
     var validador = 0;
-    while(contador < usuarios.length || validador == 0) {
+    while(contador < usuarios.length && validador == 0) {
         if(username == usuarios[contador] && password == senhas[contador]) {
             validador++;
         }
