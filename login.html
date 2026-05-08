@@ -3,37 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    =
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <script src="js/validacao.js"></script>
+
     <title>ChatFun Login Page</title>
 </head>
-<body class="bg-blue-900">
-    <header>
+
+<body class="bg-blue-900 text-white min-h-screen flex flex-col">
+
+  
+    
+    <header class="bg-blue-950 border-b-4 border-cyan-400 shadow-lg">
+
+        <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+
+          
+            <div class="flex items-center gap-4">
+
+             
+
+                <div>
+                    <h1 class="text-3xl font-bold text-cyan-300">
+                        CHATFUN
+                    </h1>
+
+                    <p class="text-sm text-gray-300">
+                        Sistema de Conversas Online
+                    </p>
+                </div>
+
+            </div>
+
+           
+            <nav>
+                <ul class="flex gap-6 text-lg">
+                    <li>
+                        <a href="#" class="hover:text-cyan-300 transition">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-300 transition">
+                            Sobre
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-300 transition">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
 
     </header>
 
-    <h1 class="text-center text-4xl">SEJA BEM-VINDO AO SITE CHATFUN!</h1>
-    <div class="bg-blue-400 border-3 border-white rounded-xl p-4 m-10 text-white max-w-lg items-center mx-auto">
-        <div class="login flex flex-col justify-center items-center">
-            <h2 class="text-center text-black text-2xl">
-                LOGIN
-            </h2>
-            <div>
-                <label for="username">Usuário:</label>
-                <input type="text" name="username" id="username" placeholder="Seu nome" class="border-b border-gray-500 text-center flex justify-center items-center">
-            </div>
-            <br>
-            <div>
-                <label for="password">Senha:</label>
-                <input type="password" name="password" id="password" placeholder="S3NH@" class="border-b border-gray-500 text-center flex justify-center items-center">
-            </div>
-            <br>
-            <input type="button" value="Entrar" class="bg-green-500 rounded-lg p-4 w-100 hover:bg-blue-700 hover:text-black transition cursor-pointer" onclick="validacao()">
-        </div>
-    </div>
+
+<h1 class="text-center text-4xl">SEJA BEM-VINDO AO SITE CHATFUN!</h1> <div class="bg-blue-400 border-3 border-white rounded-xl p-4 m-10 text-white max-w-lg items-center mx-auto"> <div class="login flex flex-col justify-center items-center"> <h2 class="text-center text-black text-2xl"> LOGIN </h2> <div> <label for="username">Usuário:</label> <input type="text" name="username" id="username" placeholder="Seu nome" class="border-b border-gray-500 text-center flex justify-center items-center"> </div> <br> <div> <label for="password">Senha:</label> <input type="password" name="password" id="password" placeholder="S3NH@" class="border-b border-gray-500 text-center flex justify-center items-center"> </div> <br> <input type="button" value="Entrar" class="bg-green-500 rounded-lg p-4 w-100 hover:bg-blue-700 hover:text-black transition cursor-pointer" onclick="validacao()"> </div> </div>    
     
-    <footer>
+    <footer class="bg-blue-950 border-t-4 border-cyan-400 mt-10 text-white">
+
+        <div class="max-w-7xl mx-auto p-6">
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+               
+                <div>
+
+                    <h2 class="text-xl font-bold text-cyan-300 mb-3">
+                        IFRN Campus Santa Cruz
+                    </h2>
+
+                  
+                    <p>
+                        Trabalho de Programação para Internet
+                    </p>
+
+                    <p>
+                        Prof. Marcelo Figueiredo Barbosa Júnior
+                    </p>
+
+                </div>
+
+              
+                <div>
+
+                    <h2 class="text-xl font-bold text-cyan-300 mb-3">
+                        Tecnologias Utilizadas
+                    </h2>
+
+                    <ul class="space-y-2">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+
+                </div>
+
+             
+                <div>
+
+                    <h2 class="text-xl font-bold text-cyan-300 mb-3">
+                        Componentes do Grupo
+                    </h2>
+
+                    <ul class="space-y-2">
+                        <li>Mauro Henrique Santos Bezerra</li>
+                        <li>Luiran Bezerra da Silva Junior</li>
+                        <li>Dayvid Jhonatas Firme da Costa</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+           
+            <div class="border-t border-gray-600 mt-6 pt-4 text-center text-gray-400">
+                © 2026 - ChatFun | Todos os direitos reservados
+            </div>
+
+        </div>
 
     </footer>
+
 </body>
 </html>
